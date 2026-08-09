@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>📝 Project Todo List</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>📝 Aplikasi Manajemen Tugas Modern</h1>
+
+    <p>Aplikasi berbasis web yang dirancang untuk membantu pengguna mengelola dan memantau tugas sehari-hari dengan lebih terorganisir. Aplikasi ini menyediakan fitur tambah, edit, dan hapus tugas, pencarian, filter berdasarkan status, kategori, prioritas, deadline, progress penyelesaian, serta mode gelap. Data tugas disimpan menggunakan LocalStorage sehingga tetap tersedia setelah halaman dimuat ulang.</p>
+
+    <!-- GAMBAR PROJECT -->
+    <img src="{{ url_for('static', filename='images/tampilan web todo list.png') }}"
+         alt="Gambar Project Note"
+         class="project-image">
+
+    <h2>Fitur:</h2>
+
+    <br>
+
+    <ul>
+        <li><strong>➕ Tambah Tugas<br></strong>
+            <p>Menambahkan tugas baru dengan nama tugas, deadline, kategori, dan prioritas.</p>
+        </li>
+
+        <br>
+
+        <li><strong>✏️ Edit Tugas<br></strong>
+            <p>Mengubah informasi tugas yang sudah dibuat.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🗑️ Hapus Tugas<br></strong>
+            <p>Menghapus tugas yang sudah tidak diperlukan.</p>
+        </li>
+
+        <br>
+
+        <li><strong>☑️ Tandai Tugas Selesai<br></strong>
+            <p>Menandai tugas sebagai selesai atau belum selesai.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🔍 Pencarian Tugas<br></strong>
+            <p>Mencari tugas berdasarkan nama tugas.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🔃 Filter Tugas<br></strong>
+            <p>Menampilkan Semua, Belum, atau Selesai.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📅 Deadline Tugas<br></strong>
+            <p>Menentukan batas waktu untuk setiap tugas.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🏷️ Kategori Tugas<br></strong>
+            <p>Mengelompokkan tugas menjadi Kuliah, Kerja, dan Pribadi.</p>
+        </li>
+
+        <br>
+
+        <li><strong>⭐ Prioritas Tugas<br></strong>
+            <p>Menentukan tingkat prioritas Tinggi, Sedang, dan Rendah.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📊 Progress Penyelesaian<br></strong>
+            <p>Menampilkan persentase tugas yang telah diselesaikan.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📈 Statistik Tugas<br></strong>
+            <p>Menampilkan jumlah Total, Selesai, dan Belum.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🔢 Pengurutan Berdasarkan Deadline<br></strong>
+            <p>Mengurutkan tugas berdasarkan tanggal deadline.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🌙 Mode Gelap<br></strong>
+            <p>Mengubah tampilan aplikasi ke mode gelap dan menyimpan pilihan tema.</p>
+        </li>
+        
+        <br>
+
+        <li><strong>💾 LocalStorage<br></strong>
+            <p>Menyimpan data tugas di browser agar tetap tersedia setelah halaman di-refresh.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📱 Desain Responsif<br></strong>
+            <p>Desain yang dapat disesuaikan dengan berbagai ukuran layar.</p>
+        </li>
+    </ul>
+
+    <br>
+    <a href="/">Kembali ke Portofolio</a>
+</body>

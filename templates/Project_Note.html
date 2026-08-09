@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Notes App</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <h1>📒 Aplikasi Catatan Digital Modern</h1>
+
+    <br>
+
+    <p>
+        Modern Notes App adalah aplikasi catatan berbasis web yang dirancang
+        untuk membantu pengguna membuat dan mengelola catatan secara praktis.
+        Pengguna dapat menambahkan, mengedit, menghapus, mencari, serta
+        menyematkan (pin) catatan penting.
+
+        Aplikasi ini menggunakan LocalStorage sehingga data catatan tetap
+        tersimpan di browser meskipun halaman di-refresh. Selain itu, tersedia
+        fitur Dark Mode, statistik jumlah catatan, modal untuk mengedit catatan,
+        serta desain responsive yang dapat digunakan pada perangkat desktop
+        maupun mobile.
+    </p>
+
+    <!-- GAMBAR PROJECT -->
+    <img src="{{ url_for('static', filename='images/Tampilan aplikasi.png') }}"
+         alt="Gambar Project Note"
+         class="project-image">
+
+    <h2>Fitur:</h2>
+
+    <br>
+
+    <ul>
+        <li><strong>📝 Menambahkan catatan<br></strong>
+            <p>Membuat dan menyimpan catatan baru dengan judul dan isi.</p>
+        </li>
+
+        <br>
+
+        <li><strong>✏️ Edit Catatan<br></strong>
+            <p>Mengubah judul atau isi catatan yang sudah dibuat.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🗑️ Hapus Catatan<br></strong>
+            <p>Menghapus catatan yang sudah tidak diperlukan.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📌 Pin / Unpin Catatan<br></strong>
+            <p>Menyematkan atau melepaskan catatan penting agar tetap terlihat di bagian atas.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🔍 Pencarian Catatan<br></strong>
+            <p>Mencari catatan berdasarkan judul atau isi secara cepat.</p>
+        </li>
+
+        <br>
+
+        <li><strong>💾 LocalStorage<br></strong>
+            <p>Menyimpan data catatan di browser agar tetap tersedia setelah halaman di-refresh.</p>
+        </li>
+
+        <br>
+
+        <li><strong>🌙 Dark Mode<br></strong>
+            <p>Mode gelap untuk kenyamanan pengguna saat bekerja di lingkungan dengan cahaya rendah.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📊 Statistik jumlah catatan<br></strong>
+            <p>Menampilkan jumlah seluruh catatan dan catatan yang sedang di-pin.</p>
+        </li>
+
+        <br>
+
+        <li><strong>📱 Desain Responsive<br></strong>
+            <p>Menyesuaikan tampilan aplikasi pada desktop, tablet, maupun perangkat mobile.</p>
+        </li>
+
+        <br>
+
+        <li><strong>✨ Modal Edit<br></strong>
+            <p>Menampilkan form edit dalam jendela modal dengan animasi saat dibuka untuk memberikan pengalaman interaksi yang lebih nyaman.</p>
+        </li>
+    </ul>
+
+    <br>
+
+    <a href="/">Kembali ke Portofolio</a>
+
+</body>
+</html>
