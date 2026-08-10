@@ -2,13 +2,16 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def home():
     return render_template("index.html")
 
+
 @app.route("/project-listrik")
 def project_listrik():
-    return render_template("project_listrik.html")
+    return render_template("Project_Listrik.html")
+
 
 @app.route("/project/notes")
 def project_notes():
@@ -19,9 +22,11 @@ def project_notes():
 def project_todo():
     return render_template("Project_Todo List.html")
 
-@app.route("/Project_Landing Page")
+
+@app.route("/project/landing-page")
 def landing():
     return render_template("Project_Landing Page.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
